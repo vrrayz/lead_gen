@@ -1,0 +1,37 @@
+.breadcrumb-container ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: start;
+    padding-left: 0px;
+}
+.breadcrumb-container ul li{
+    margin: 0px 8px;
+}
+
+.breadcrumb-container ul li:nth-child(2){
+    font-weight: bolder;
+}
+.hero-section{
+    position: relative;
+}
+.caption{
+    background-color: #fff;
+    /* color: #fff; */
+    padding: 4px 16px;
+    position: absolute;
+    margin-left: 8px;
+    bottom: 12px;
+    width: 70%;
+}
+.caption h3, .caption p{
+    margin-bottom: 2px;
+}
+.bg-secondary{
+    background-color: #efefef !important;
+}
+.bg-cover{
+    background-image: url('/img/bg-cover.jpg');
+    background-size: cover;
+    /* height: 100vh;
+    width: 99vw; */
+}
